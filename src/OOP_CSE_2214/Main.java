@@ -33,5 +33,8 @@ public class Main {
         ob.Design();
         Login log = new Login();
         log.login();
+        Seller sell = new Seller();
+        sell.Seller();
     }
+
 }
