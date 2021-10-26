@@ -38,11 +38,14 @@ public class Login{
     public void Seller1Login()
     {
         // int Seller1ID = input.nextLine().charAt(0);
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter Your Password: ");
         String Seller1Pass = input.nextLine();
 
         //if(Seller1ID == 201 && Seller1Pass == "IMNewSeller01")
-        if(Seller1Pass == "IMNewSeller01")
+
+       if(Seller1Pass =="IMNewSeller01")
+
         {
             sellerafterlogin.SellerHome();
         }
@@ -110,8 +113,8 @@ public class Login{
     public void sellerFunction()
     {
         System.out.println("Enter Your Seller ID: ");
-        int SellerID = input.nextLine().charAt(0);
-
+        //int SellerID = input.nextLine().charAt(0);
+        int SellerID = input.nextInt();
         switch (SellerID)
         {
             case 1:

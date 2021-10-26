@@ -1,17 +1,11 @@
 package OOP_CSE_2214;
 
-//public class Main {
-//
-//    public static void main(String[] args) {
-//	// write your code here }
-//}
-//package shoppingmall;
 import java.util.Scanner;
 
 public class Main {
 
     public Scanner input =new Scanner(System.in);
-    //public Scanner input = new Scanner(System.in);
+
     public void Design()
     {
         System.out.println(" |=================================================================|");

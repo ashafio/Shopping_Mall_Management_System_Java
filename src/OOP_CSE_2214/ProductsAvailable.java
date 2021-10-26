@@ -1,11 +1,12 @@
 package OOP_CSE_2214;
 //
 public class ProductsAvailable extends Login {
-    public void ProductsAvailable() {
-        System.out.println("FedUP");
+    public void ProductAvailable() {
+        Seller1Goods();
     }
-    }
-////        sellerFunction();
+
+
+    ////        sellerFunction();
 ////        Seller1Login();
 ////        Seller2Login();
 ////        Seller3Login();
@@ -126,28 +127,29 @@ public class ProductsAvailable extends Login {
 //
 //    //Seller1Goods
 //
-//    public void Seller1Goods(){
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|               GadgetLovers Shop                  |");
-//        System.out.println("\t\t|      Product Name       ||      Product Code     |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|    GoPro Hero 7 Black   ||          GoH7         |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|    GoPro Hero 8 Black   ||          GoH8         |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|    GoPro Hero 9 Black   ||          GoH9         |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|    HP Pavilion Laptop   ||          HPPL         |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|      HP Envy Laptop     ||          HPEL         |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|    HP Spectre Laptop    ||          HPSL         |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t|    HP Probook Laptop    ||          HPProL       |");
-//        System.out.println("\t\t----------------------------------------------------");
-//        System.out.println("\t\t----------------------------------------------------");
-//
-//    }
+    public void Seller1Goods() {
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|               GadgetLovers Shop                  |");
+        System.out.println("\t\t|      Product Name       ||      Product Code     |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|    GoPro Hero 7 Black   ||          GoH7         |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|    GoPro Hero 8 Black   ||          GoH8         |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|    GoPro Hero 9 Black   ||          GoH9         |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|    HP Pavilion Laptop   ||          HPPL         |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|      HP Envy Laptop     ||          HPEL         |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|    HP Spectre Laptop    ||          HPSL         |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t|    HP Probook Laptop    ||          HPProL       |");
+        System.out.println("\t\t----------------------------------------------------");
+        System.out.println("\t\t----------------------------------------------------");
+
+    }
+}
 //
 //    public void Seller2Goods(){
 //

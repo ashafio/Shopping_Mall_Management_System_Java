@@ -1,7 +1,7 @@
 package OOP_CSE_2214;
 import java.util.Scanner;
 
-public class Seller {
+public class Seller extends Login{
 
     public Scanner input = new Scanner(System.in);
     Login log = new Login();
@@ -14,7 +14,8 @@ public class Seller {
 
         if(ExistOrNew == '1')
         {
-            log.login();
+            //log.login();
+            Seller1Login();
         }
         else if (ExistOrNew == '2')
         {
