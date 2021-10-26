@@ -75,12 +75,12 @@ public class SellerAfterLogin{
 
     public void SaleInsight() {
         System.out.println("Seller ID: 201\nSeller Name: David \n Trade License No: 322145\nNID:9754467532 ");
-        System.out.println("|----------Sales Insights:----------|");
-        System.out.println("|----------Total Items Availabe: 15 ----------|");
-        System.out.println("|----------All Time Sales: $37000 ----------|");
-        System.out.println("|---------- Total Customer: 154 ----------|");
-        System.out.println("|---------- Repeating Customer: 96 ----------|");
-        System.out.println("|---------- Total Revenue: $12210 ----------|");
+        System.out.println("|-----------------Sales Insights:-----------------|");
+        System.out.println("|----------   Total Items Availabe: 15  ----------|");
+        System.out.println("|----------     All Time Sales: $37000  ----------|");
+        System.out.println("|----------      Total Customer: 154    ----------|");
+        System.out.println("|----------     Repeating Customer: 96  ----------|");
+        System.out.println("|----------      Total Revenue: $12210  ----------|");
         System.out.println("|---------- Revenue in This month:$1440 ----------|");
 
         System.out.println("|----------Revenue Graph----------|\n|----------This year:----------|");

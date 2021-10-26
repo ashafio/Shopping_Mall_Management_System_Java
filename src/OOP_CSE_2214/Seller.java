@@ -30,7 +30,7 @@ public class Seller extends Login{
             else if(ExtraInfo=='2')
             {
                 System.out.println("Admin's Contact Information:");
-                System.out.println("Name: Shafi Ragnar\n Phone:+880161506014\nEmail:admin@smms.com");
+                System.out.println("Name: Shafi \n Phone:+880161506014\nEmail:admin@smms.com");
                 System.out.println("Thank You :)");
             }
             else
