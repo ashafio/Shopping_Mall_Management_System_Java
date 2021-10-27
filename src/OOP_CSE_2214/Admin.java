@@ -1,10 +1,11 @@
 package OOP_CSE_2214;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Admin extends Login{
 
     SellerAfterLogin SAL = new SellerAfterLogin();
-    public void Admin() {
+
+    Admin() {
         int x = 0;
 
         String adminName = new String("Mahfuz");
@@ -31,8 +32,7 @@ public class Admin extends Login{
                     if (passWord.equals(adminPass)) {
                         m = m + 1;
                         System.out.println("Good Job!!!");
-                        //int n=1;
-                        // while (n==1) {
+
                         System.out.println("Enter 1 to see Available Products.\n Enter 2 to see Sales Insight.");
 
                         int i = input.nextInt();
@@ -43,7 +43,7 @@ public class Admin extends Login{
                         } else {
                             System.out.println("Invalid Input :(");
                         }
-                        // }
+
 
                     } else {
                         System.out.println("Incorrect password");
