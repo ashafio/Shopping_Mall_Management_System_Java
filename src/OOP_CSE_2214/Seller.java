@@ -9,12 +9,12 @@ public class Seller extends Login{
     public void Seller()
     {
         System.out.println("1. Already Have a Shop? LOG IN \n 2. New Here? Create a New Shop.");
-        //int ExistOrNew = input.nextInt();
+
         int ExistOrNew = input.nextLine().charAt(0);
 
         if(ExistOrNew == '1')
         {
-            //log.login();
+
             Seller1Login();
         }
         else if (ExistOrNew == '2')
