@@ -1,9 +1,10 @@
 package OOP_CSE_2214;
 import java.util.Scanner;
 
-public class Buyer {
+public class Buyer extends Login{
 
-    public  void Buyer(){
+
+    Buyer(){
 
         System.out.println(" We select you as  a buyer. ");
         System.out.println("Choose an option: ");
@@ -12,8 +13,7 @@ public class Buyer {
         System.out.println("                         6. All Shop List");
         System.out.println("Select an option:  ");
 
-        //while(optionSelect){
-        // problem
+
         Scanner input = new Scanner(System.in);
         int optionSelect = input.nextInt();
 
@@ -41,7 +41,7 @@ public class Buyer {
                 System.out.println( "'''''''''''''''''''''''''''''''''''''''''''''''''''");
                 System.out.println("-----------------------------------------------------");
 
-                Buyer();
+                //Buyer();
                 break;
             case 2 :
                 System.out.println("Please write some word about your experience with us");
@@ -54,10 +54,11 @@ public class Buyer {
                 System.out.println("This is a console based project.");
                 System.out.println("Using Object Oriented Programming language.");
                 System.out.println("This project contributed by 3 person.");
-                System.out.println("");
+                System.out.println(" ");
                 break;
             case 4 :
                 System.out.println("Here you can search all our products");
+                ProductAvailable();
 
                 break;
             case 5 :
@@ -67,11 +68,16 @@ public class Buyer {
                 System.out.println("Here you can see all our shop.");
                 break;
             default:
-                Buyer();
+
+                //Buyer();
                 break;
 
         }
 
+    }
+
+    private void ProductAvailable() {
+        sellerafterlogin.Seller1Goods();
     }
 }
 
